@@ -1,0 +1,621 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Jan 15 21:14:11 2023
+# Process ID: 38316
+# Current directory: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent35924 D:\Facultate\XilinxVivadoProjects\SSC\ProiectSSC\Mouse_and_VGA\Mouse_and_VGA.xpr
+# Log file: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/vivado.log
+# Journal file: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programe/Vivado.2020.1/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 1035.168 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Jan 15 21:49:18 2023] Launched synth_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/runme.log
+[Sun Jan 15 21:49:19 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Andrei\Desktop\An_3_Semestrul_1\SSC\ProiectSSC\vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03\vga_controller.srcs\sources_1\new\vga_controller.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Andrei\Desktop\An_3_Semestrul_1\SSC\ProiectSSC\vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03\vga_controller.srcs\sources_1\new\clk_divider.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+copy_run -name synth_1_copy_1 [get_runs synth_1] 
+synth_1_copy_1
+set_property part xc7a35tcpg236-1 [current_project]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Jan 15 21:53:17 2023] Launched synth_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/runme.log
+[Sun Jan 15 21:53:17 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+add_files -norecurse {D:/Facultate/XilinxVivadoProjects/SSC/mouse.vhd D:/Facultate/XilinxVivadoProjects/SSC/ps2_rxtx.vhd D:/Facultate/XilinxVivadoProjects/SSC/ps2_rx.vhd D:/Facultate/XilinxVivadoProjects/SSC/ps2_tx.vhd}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Jan 15 23:11:10 2023] Launched synth_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/runme.log
+[Sun Jan 15 23:11:10 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Jan 15 23:16:03 2023] Launched synth_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/runme.log
+[Sun Jan 15 23:16:03 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Jan 15 23:19:35 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.1
+  **** Build date : May 27 2020 at 20:24:38
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2020.1.0
+  **** Build date : May 14 2020-04:10:29
+    ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1828.055 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+set_property PROGRAM.FILE {C:\Users\Andrei\Desktop\An_3_Semestrul_1\SSC\ProiectSSC\vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03\vga_controller.runs\impl_1\vga_controller.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Jan 15 23:31:54 2023] Launched synth_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/runme.log
+[Sun Jan 15 23:31:54 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Jan 15 23:36:03 2023] Launched synth_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/runme.log
+[Sun Jan 15 23:36:03 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.1
+  **** Build date : May 27 2020 at 20:24:38
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2020.1.0
+  **** Build date : May 14 2020-04:10:29
+    ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 2519.383 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Jan 15 23:45:25 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Jan 15 23:46:10 2023] Launched synth_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/runme.log
+[Sun Jan 15 23:46:10 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Jan 15 23:49:12 2023] Launched synth_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/runme.log
+[Sun Jan 15 23:49:12 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Jan 15 23:53:29 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Jan 15 23:57:29 2023] Launched synth_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/runme.log
+[Sun Jan 15 23:57:29 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Jan 16 00:10:22 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Jan 16 00:18:54 2023] Launched synth_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/runme.log
+[Mon Jan 16 00:18:54 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.1
+  **** Build date : May 27 2020 at 20:24:38
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2020.1.0
+  **** Build date : May 14 2020-04:10:29
+    ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 2534.035 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+open_project D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC_v2/project_mouse_test/project_mouse_test.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programe/Vivado.2020.1/Vivado/2020.1/data/ip'.
+update_compile_order -fileset sources_1
+current_project Mouse_and_VGA
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+current_project project_mouse_test
+close_project
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Jan 16 00:27:10 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Jan 16 00:29:25 2023] Launched synth_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/runme.log
+[Mon Jan 16 00:29:25 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Jan 16 00:33:47 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Jan 16 00:36:19 2023] Launched synth_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/runme.log
+[Mon Jan 16 00:36:19 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Jan 16 00:41:06 2023] Launched synth_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/runme.log
+[Mon Jan 16 00:41:06 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Jan 16 00:46:15 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Jan 16 00:48:28 2023] Launched synth_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/runme.log
+[Mon Jan 16 00:48:28 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Jan 16 00:53:46 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Jan 16 01:01:30 2023] Launched synth_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/runme.log
+[Mon Jan 16 01:01:30 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 2813.496 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 220 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'vga_controller' is not ideal for floorplanning, since the cellview 'vga_controller' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2020.1
+open_run: Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 2818.551 ; gain = 269.047
+INFO: [Common 17-344] 'open_run' was cancelled
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Jan 16 01:23:29 2023] Launched synth_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/runme.log
+[Mon Jan 16 01:23:29 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Jan 16 01:31:09 2023] Launched synth_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/runme.log
+[Mon Jan 16 01:31:09 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 2827.469 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 215 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'vga_controller' is not ideal for floorplanning, since the cellview 'vga_controller' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2020.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.115 . Memory (MB): peak = 3455.234 ; gain = 0.000
+open_run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 3455.234 ; gain = 627.766
+INFO: [Common 17-344] 'open_run' was cancelled
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Jan 16 01:36:03 2023] Launched synth_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/runme.log
+[Mon Jan 16 01:36:03 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Jan 16 01:41:51 2023] Launched synth_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/runme.log
+[Mon Jan 16 01:41:51 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+undo
+INFO: [Common 17-17] undo 'set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]'
+undo
+INFO: [Common 17-17] undo 'set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]'
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Jan 16 01:47:13 2023] Launched synth_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/runme.log
+[Mon Jan 16 01:47:13 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Jan 16 02:05:50 2023] Launched synth_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/runme.log
+[Mon Jan 16 02:05:50 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Jan 16 02:09:17 2023] Launched synth_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/runme.log
+[Mon Jan 16 02:09:17 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Jan 16 02:32:57 2023] Launched synth_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/runme.log
+[Mon Jan 16 02:32:57 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Jan 16 02:41:08 2023] Launched synth_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/runme.log
+[Mon Jan 16 02:41:08 2023] Launched impl_1...
+Run output will be captured here: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A89BBEA
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 16 02:56:04 2023...

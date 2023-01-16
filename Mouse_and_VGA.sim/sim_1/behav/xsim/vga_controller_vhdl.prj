@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/bist_d.vhd" \
+"C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/clk_divider.vhd" \
+"C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/clk_mul.vhd" \
+"C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/debouncer.vhd" \
+"C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/vga_controller.vhd" \
+
+# Do not sort compile order
+nosort

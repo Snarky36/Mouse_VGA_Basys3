@@ -1,0 +1,30 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programe/Vivado.2020.1/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 43b6156f046d4a97abec459e8ee341d1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot vga_controller_behav xil_defaultlib.vga_controller -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.math_real
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_signed
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture comportamentala of entity xil_defaultlib.clk_divider [clk_divider_default]
+Compiling architecture mmcme2_adv_v of entity unisim.MMCME2_ADV [\MMCME2_ADV(clkfbout_mult_f=10.1...]
+Compiling architecture bufg_v of entity unisim.BUFG [bufg_default]
+Compiling architecture arh of entity xil_defaultlib.clk_mul [clk_mul_default]
+Compiling architecture behavioral of entity xil_defaultlib.bist_d [bist_d_default]
+Compiling architecture flux of entity xil_defaultlib.and_gate_3 [and_gate_3_default]
+Compiling architecture structurala of entity xil_defaultlib.debouncer [debouncer_default]
+Compiling architecture behavioral of entity xil_defaultlib.vga_controller
+Built simulation snapshot vga_controller_behav

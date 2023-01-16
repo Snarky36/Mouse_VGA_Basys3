@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Nov  9 11:36:46 2022
+# Process ID: 37292
+# Current directory: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.sim/sim_1/behav/xsim/xsim.dir/vga_controller_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.sim/sim_1/behav/xsim/xsim.dir/vga_controller_behav/webtalk/xsim_webtalk.tcl -notrace
