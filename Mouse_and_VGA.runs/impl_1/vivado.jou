@@ -2,8 +2,8 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Mon Jan 16 02:42:17 2023
-# Process ID: 10648
+# Start of session at: Mon Jan 16 20:48:13 2023
+# Process ID: 23192
 # Current directory: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1
 # Command line: vivado.exe -log vga_controller.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source vga_controller.tcl -notrace
 # Log file: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/impl_1/vga_controller.vdi

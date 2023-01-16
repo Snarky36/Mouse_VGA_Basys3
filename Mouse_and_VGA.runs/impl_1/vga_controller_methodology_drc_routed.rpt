@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-| Date         : Mon Jan 16 02:43:42 2023
+| Date         : Mon Jan 16 20:49:31 2023
 | Host         : DESKTOP-OMSK9GI running 64-bit major release  (build 9200)
 | Command      : report_methodology -file vga_controller_methodology_drc_routed.rpt -pb vga_controller_methodology_drc_routed.pb -rpx vga_controller_methodology_drc_routed.rpx
 | Design       : vga_controller
@@ -86,122 +86,122 @@ Related violations: <none>
 
 TIMING-16#1 Warning
 Large setup violation  
-There is a large setup violation of -5.515 ns between hPos_reg[0]_replica/C (clocked by clk_out1_clk_wiz_0) and vga_red_reg[3]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -5.433 ns between vPos_reg[1]/C (clocked by clk_out1_clk_wiz_0) and vga_red_reg[1]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#2 Warning
 Large setup violation  
-There is a large setup violation of -5.629 ns between hPos_reg[0]_replica/C (clocked by clk_out1_clk_wiz_0) and vga_blue_reg[0]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -5.457 ns between vPos_reg[1]/C (clocked by clk_out1_clk_wiz_0) and vga_green_reg[1]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#3 Warning
 Large setup violation  
-There is a large setup violation of -5.645 ns between hPos_reg[0]_replica/C (clocked by clk_out1_clk_wiz_0) and vga_red_reg[0]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -5.563 ns between vPos_reg[1]/C (clocked by clk_out1_clk_wiz_0) and vga_red_reg[0]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#4 Warning
 Large setup violation  
-There is a large setup violation of -5.656 ns between hPos_reg[0]_replica/C (clocked by clk_out1_clk_wiz_0) and vga_blue_reg[3]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -5.608 ns between vPos_reg[1]/C (clocked by clk_out1_clk_wiz_0) and vga_blue_reg[1]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#5 Warning
 Large setup violation  
-There is a large setup violation of -5.668 ns between hPos_reg[0]_replica/C (clocked by clk_out1_clk_wiz_0) and vga_green_reg[3]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -5.610 ns between vPos_reg[1]/C (clocked by clk_out1_clk_wiz_0) and vga_blue_reg[2]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#6 Warning
 Large setup violation  
-There is a large setup violation of -5.692 ns between hPos_reg[0]_replica/C (clocked by clk_out1_clk_wiz_0) and vga_blue_reg[1]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -5.644 ns between vPos_reg[1]/C (clocked by clk_out1_clk_wiz_0) and vga_red_reg[2]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#7 Warning
 Large setup violation  
-There is a large setup violation of -5.785 ns between hPos_reg[0]_replica/C (clocked by clk_out1_clk_wiz_0) and vga_red_reg[3]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -5.655 ns between vPos_reg[1]/C (clocked by clk_out1_clk_wiz_0) and vga_blue_reg[3]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#8 Warning
 Large setup violation  
-There is a large setup violation of -5.798 ns between hPos_reg[0]_replica/C (clocked by clk_out1_clk_wiz_0) and vga_red_reg[1]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -5.684 ns between vPos_reg[1]/C (clocked by clk_out1_clk_wiz_0) and vga_green_reg[0]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#9 Warning
 Large setup violation  
-There is a large setup violation of -5.809 ns between hPos_reg[0]_replica/C (clocked by clk_out1_clk_wiz_0) and vga_green_reg[0]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -5.714 ns between vPos_reg[1]/C (clocked by clk_out1_clk_wiz_0) and vga_green_reg[2]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#10 Warning
 Large setup violation  
-There is a large setup violation of -5.809 ns between hPos_reg[0]_replica/C (clocked by clk_out1_clk_wiz_0) and vga_red_reg[0]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -5.728 ns between vPos_reg[1]/C (clocked by clk_out1_clk_wiz_0) and vga_blue_reg[0]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#11 Warning
 Large setup violation  
-There is a large setup violation of -5.809 ns between hPos_reg[0]_replica/C (clocked by clk_out1_clk_wiz_0) and vga_red_reg[1]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -5.759 ns between vPos_reg[1]/C (clocked by clk_out1_clk_wiz_0) and vga_green_reg[3]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#12 Warning
 Large setup violation  
-There is a large setup violation of -5.815 ns between hPos_reg[0]_replica/C (clocked by clk_out1_clk_wiz_0) and vga_green_reg[3]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -5.806 ns between vPos_reg[1]/C (clocked by clk_out1_clk_wiz_0) and vga_red_reg[3]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#13 Warning
 Large setup violation  
-There is a large setup violation of -5.819 ns between hPos_reg[0]_replica/C (clocked by clk_out1_clk_wiz_0) and vga_green_reg[2]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -5.878 ns between vPos_reg[1]/C (clocked by clk_out1_clk_wiz_0) and vga_green_reg[1]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#14 Warning
 Large setup violation  
-There is a large setup violation of -5.834 ns between hPos_reg[0]_replica/C (clocked by clk_out1_clk_wiz_0) and vga_blue_reg[2]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -5.878 ns between vPos_reg[1]/C (clocked by clk_out1_clk_wiz_0) and vga_red_reg[1]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#15 Warning
 Large setup violation  
-There is a large setup violation of -5.834 ns between hPos_reg[0]_replica/C (clocked by clk_out1_clk_wiz_0) and vga_red_reg[2]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -5.914 ns between vPos_reg[1]/C (clocked by clk_out1_clk_wiz_0) and vga_blue_reg[3]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#16 Warning
 Large setup violation  
-There is a large setup violation of -5.843 ns between hPos_reg[0]_replica/C (clocked by clk_out1_clk_wiz_0) and vga_green_reg[0]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -5.914 ns between vPos_reg[1]/C (clocked by clk_out1_clk_wiz_0) and vga_red_reg[3]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#17 Warning
 Large setup violation  
-There is a large setup violation of -5.848 ns between hPos_reg[0]_replica/C (clocked by clk_out1_clk_wiz_0) and vga_green_reg[2]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -5.966 ns between vPos_reg[1]/C (clocked by clk_out1_clk_wiz_0) and vga_green_reg[2]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#18 Warning
 Large setup violation  
-There is a large setup violation of -5.856 ns between hPos_reg[0]_replica/C (clocked by clk_out1_clk_wiz_0) and vga_blue_reg[0]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -6.017 ns between vPos_reg[1]/C (clocked by clk_out1_clk_wiz_0) and vga_blue_reg[1]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#19 Warning
 Large setup violation  
-There is a large setup violation of -5.856 ns between hPos_reg[0]_replica/C (clocked by clk_out1_clk_wiz_0) and vga_blue_reg[1]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -6.047 ns between vPos_reg[1]/C (clocked by clk_out1_clk_wiz_0) and vga_green_reg[0]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#20 Warning
 Large setup violation  
-There is a large setup violation of -5.955 ns between hPos_reg[0]_replica/C (clocked by clk_out1_clk_wiz_0) and vga_green_reg[1]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -6.053 ns between vPos_reg[1]/C (clocked by clk_out1_clk_wiz_0) and vga_red_reg[0]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#21 Warning
 Large setup violation  
-There is a large setup violation of -6.035 ns between hPos_reg[0]_replica/C (clocked by clk_out1_clk_wiz_0) and vga_red_reg[2]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -6.053 ns between vPos_reg[1]/C (clocked by clk_out1_clk_wiz_0) and vga_red_reg[2]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#22 Warning
 Large setup violation  
-There is a large setup violation of -6.241 ns between hPos_reg[0]_replica/C (clocked by clk_out1_clk_wiz_0) and vga_blue_reg[3]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -6.067 ns between vPos_reg[1]/C (clocked by clk_out1_clk_wiz_0) and vga_blue_reg[0]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#23 Warning
 Large setup violation  
-There is a large setup violation of -6.259 ns between hPos_reg[0]_replica/C (clocked by clk_out1_clk_wiz_0) and vga_green_reg[1]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -6.113 ns between vPos_reg[1]/C (clocked by clk_out1_clk_wiz_0) and vga_blue_reg[2]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#24 Warning
 Large setup violation  
-There is a large setup violation of -6.350 ns between hPos_reg[0]_replica/C (clocked by clk_out1_clk_wiz_0) and vga_blue_reg[2]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -6.113 ns between vPos_reg[1]/C (clocked by clk_out1_clk_wiz_0) and vga_green_reg[3]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-20#1 Warning

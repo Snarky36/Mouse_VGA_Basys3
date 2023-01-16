@@ -2,8 +2,8 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Mon Jan 16 02:41:10 2023
-# Process ID: 27484
+# Start of session at: Mon Jan 16 20:47:08 2023
+# Process ID: 23036
 # Current directory: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1
 # Command line: vivado.exe -log vga_controller.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source vga_controller.tcl
 # Log file: D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/vga_controller.vds
@@ -17,17 +17,17 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 7668
+INFO: [Synth 8-7075] Helper process launched with PID 29292
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1032.723 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1036.691 ; gain = 0.000
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'vga_controller' [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/vga_controller.vhd:34]
-INFO: [Synth 8-3491] module 'clk_divider' declared at 'C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/clk_divider.vhd:4' bound to instance 'clk_butons' of component 'clk_divider' [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/vga_controller.vhd:527]
-INFO: [Synth 8-638] synthesizing module 'clk_divider' [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/clk_divider.vhd:9]
-WARNING: [Synth 8-614] signal 'clk' is read in the process but is not in the sensitivity list [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/clk_divider.vhd:12]
-INFO: [Synth 8-256] done synthesizing module 'clk_divider' (1#1) [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/clk_divider.vhd:9]
-INFO: [Synth 8-3491] module 'clk_mul' declared at 'C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/clk_mul.vhd:21' bound to instance 'clk_modifier' of component 'clk_mul' [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/vga_controller.vhd:528]
-INFO: [Synth 8-638] synthesizing module 'clk_mul' [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/clk_mul.vhd:26]
+INFO: [Synth 8-638] synthesizing module 'vga_controller' [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/vga_controller.vhd:34]
+INFO: [Synth 8-3491] module 'clk_divider' declared at 'D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/clk_divider.vhd:4' bound to instance 'clk_butons' of component 'clk_divider' [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/vga_controller.vhd:527]
+INFO: [Synth 8-638] synthesizing module 'clk_divider' [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/clk_divider.vhd:9]
+WARNING: [Synth 8-614] signal 'clk' is read in the process but is not in the sensitivity list [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/clk_divider.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'clk_divider' (1#1) [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/clk_divider.vhd:9]
+INFO: [Synth 8-3491] module 'clk_mul' declared at 'D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/clk_mul.vhd:21' bound to instance 'clk_modifier' of component 'clk_mul' [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/vga_controller.vhd:528]
+INFO: [Synth 8-638] synthesizing module 'clk_mul' [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/clk_mul.vhd:26]
 	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
 	Parameter CLKFBOUT_MULT_F bound to: 10.125000 - type: double 
 	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: double 
@@ -76,48 +76,48 @@ INFO: [Synth 8-638] synthesizing module 'clk_mul' [C:/Users/Andrei/Desktop/An_3_
 	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
 	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
 	Parameter STARTUP_WAIT bound to: 0 - type: bool 
-INFO: [Synth 8-113] binding component instance 'mmcm_adv_inst' to cell 'MMCME2_ADV' [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/clk_mul.vhd:68]
-INFO: [Synth 8-113] binding component instance 'clkf_buf' to cell 'BUFG' [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/clk_mul.vhd:130]
-INFO: [Synth 8-113] binding component instance 'clkout1_buf' to cell 'BUFG' [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/clk_mul.vhd:137]
-INFO: [Synth 8-256] done synthesizing module 'clk_mul' (2#1) [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/clk_mul.vhd:26]
-INFO: [Synth 8-3491] module 'debouncer' declared at 'C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/debouncer.vhd:4' bound to instance 'ebu' of component 'debouncer' [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/vga_controller.vhd:529]
-INFO: [Synth 8-638] synthesizing module 'debouncer' [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/debouncer.vhd:25]
-INFO: [Synth 8-3491] module 'bist_d' declared at 'C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/bist_d.vhd:4' bound to instance 'B1' of component 'bist_d' [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/debouncer.vhd:42]
+INFO: [Synth 8-113] binding component instance 'mmcm_adv_inst' to cell 'MMCME2_ADV' [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/clk_mul.vhd:68]
+INFO: [Synth 8-113] binding component instance 'clkf_buf' to cell 'BUFG' [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/clk_mul.vhd:130]
+INFO: [Synth 8-113] binding component instance 'clkout1_buf' to cell 'BUFG' [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/clk_mul.vhd:137]
+INFO: [Synth 8-256] done synthesizing module 'clk_mul' (2#1) [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/clk_mul.vhd:26]
+INFO: [Synth 8-3491] module 'debouncer' declared at 'D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/debouncer.vhd:4' bound to instance 'ebu' of component 'debouncer' [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/vga_controller.vhd:529]
+INFO: [Synth 8-638] synthesizing module 'debouncer' [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/debouncer.vhd:25]
+INFO: [Synth 8-3491] module 'bist_d' declared at 'C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/bist_d.vhd:4' bound to instance 'B1' of component 'bist_d' [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/debouncer.vhd:42]
 INFO: [Synth 8-638] synthesizing module 'bist_d' [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/bist_d.vhd:10]
 INFO: [Synth 8-256] done synthesizing module 'bist_d' (3#1) [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/bist_d.vhd:10]
-INFO: [Synth 8-3491] module 'bist_d' declared at 'C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/bist_d.vhd:4' bound to instance 'B2' of component 'bist_d' [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/debouncer.vhd:43]
-INFO: [Synth 8-3491] module 'bist_d' declared at 'C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/bist_d.vhd:4' bound to instance 'B3' of component 'bist_d' [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/debouncer.vhd:44]
-INFO: [Synth 8-3491] module 'and_gate_3' declared at 'C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/debouncer.vhd:13' bound to instance 'SI' of component 'and_gate_3' [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/debouncer.vhd:45]
-INFO: [Synth 8-638] synthesizing module 'and_gate_3' [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/debouncer.vhd:20]
-INFO: [Synth 8-256] done synthesizing module 'and_gate_3' (4#1) [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/debouncer.vhd:20]
-INFO: [Synth 8-256] done synthesizing module 'debouncer' (5#1) [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/debouncer.vhd:25]
-INFO: [Synth 8-3491] module 'debouncer' declared at 'C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/debouncer.vhd:4' bound to instance 'debd' of component 'debouncer' [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/vga_controller.vhd:530]
-INFO: [Synth 8-3491] module 'debouncer' declared at 'C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/debouncer.vhd:4' bound to instance 'debl' of component 'debouncer' [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/vga_controller.vhd:531]
-INFO: [Synth 8-3491] module 'debouncer' declared at 'C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/debouncer.vhd:4' bound to instance 'debr' of component 'debouncer' [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/vga_controller.vhd:532]
-INFO: [Synth 8-3491] module 'debouncer' declared at 'C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/debouncer.vhd:4' bound to instance 'debm' of component 'debouncer' [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/vga_controller.vhd:533]
-INFO: [Synth 8-638] synthesizing module 'mouse' [D:/Facultate/XilinxVivadoProjects/SSC/mouse.vhd:45]
-INFO: [Synth 8-638] synthesizing module 'ps2_rxtx' [D:/Facultate/XilinxVivadoProjects/SSC/ps2_rxtx.vhd:46]
-INFO: [Synth 8-638] synthesizing module 'ps2_tx' [D:/Facultate/XilinxVivadoProjects/SSC/ps2_tx.vhd:45]
-INFO: [Synth 8-256] done synthesizing module 'ps2_tx' (6#1) [D:/Facultate/XilinxVivadoProjects/SSC/ps2_tx.vhd:45]
-INFO: [Synth 8-638] synthesizing module 'ps2_rx' [D:/Facultate/XilinxVivadoProjects/SSC/ps2_rx.vhd:44]
-INFO: [Synth 8-256] done synthesizing module 'ps2_rx' (7#1) [D:/Facultate/XilinxVivadoProjects/SSC/ps2_rx.vhd:44]
-INFO: [Synth 8-256] done synthesizing module 'ps2_rxtx' (8#1) [D:/Facultate/XilinxVivadoProjects/SSC/ps2_rxtx.vhd:46]
-INFO: [Synth 8-256] done synthesizing module 'mouse' (9#1) [D:/Facultate/XilinxVivadoProjects/SSC/mouse.vhd:45]
-INFO: [Synth 8-226] default block is never used [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/vga_controller.vhd:695]
-INFO: [Synth 8-256] done synthesizing module 'vga_controller' (10#1) [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/vga_controller.vhd:34]
+INFO: [Synth 8-3491] module 'bist_d' declared at 'C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/bist_d.vhd:4' bound to instance 'B2' of component 'bist_d' [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/debouncer.vhd:43]
+INFO: [Synth 8-3491] module 'bist_d' declared at 'C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/bist_d.vhd:4' bound to instance 'B3' of component 'bist_d' [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/debouncer.vhd:44]
+INFO: [Synth 8-3491] module 'and_gate_3' declared at 'D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/debouncer.vhd:13' bound to instance 'SI' of component 'and_gate_3' [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/debouncer.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'and_gate_3' [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/debouncer.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'and_gate_3' (4#1) [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/debouncer.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'debouncer' (5#1) [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/debouncer.vhd:25]
+INFO: [Synth 8-3491] module 'debouncer' declared at 'D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/debouncer.vhd:4' bound to instance 'debd' of component 'debouncer' [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/vga_controller.vhd:530]
+INFO: [Synth 8-3491] module 'debouncer' declared at 'D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/debouncer.vhd:4' bound to instance 'debl' of component 'debouncer' [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/vga_controller.vhd:531]
+INFO: [Synth 8-3491] module 'debouncer' declared at 'D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/debouncer.vhd:4' bound to instance 'debr' of component 'debouncer' [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/vga_controller.vhd:532]
+INFO: [Synth 8-3491] module 'debouncer' declared at 'D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/debouncer.vhd:4' bound to instance 'debm' of component 'debouncer' [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/vga_controller.vhd:533]
+INFO: [Synth 8-638] synthesizing module 'mouse' [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/mouse.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'ps2_rxtx' [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/ps2_rxtx.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'ps2_tx' [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/ps2_tx.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'ps2_tx' (6#1) [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/ps2_tx.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'ps2_rx' [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/ps2_rx.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'ps2_rx' (7#1) [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/ps2_rx.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'ps2_rxtx' (8#1) [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/ps2_rxtx.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'mouse' (9#1) [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/mouse.vhd:45]
+INFO: [Synth 8-226] default block is never used [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/vga_controller.vhd:695]
+INFO: [Synth 8-256] done synthesizing module 'vga_controller' (10#1) [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/vga_controller.vhd:34]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1044.926 ; gain = 12.203
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1044.305 ; gain = 7.613
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1044.926 ; gain = 12.203
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1044.305 ; gain = 7.613
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1044.926 ; gain = 12.203
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1044.305 ; gain = 7.613
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1044.926 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1044.305 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -131,26 +131,26 @@ Resolution: To avoid this warning, move constraints listed in [.Xil/vga_controll
 INFO: [Timing 38-2] Deriving generated clocks
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1163.246 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1167.562 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1163.246 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1167.562 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1163.246 ; gain = 130.523
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1167.562 ; gain = 130.871
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1163.246 ; gain = 130.523
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1167.562 ; gain = 130.871
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1163.246 ; gain = 130.523
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1167.562 ; gain = 130.871
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'ps2_tx'
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'ps2_rx'
@@ -185,10 +185,10 @@ INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encod
                     done |                              110 |                              110
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'mouse'
-WARNING: [Synth 8-327] inferring latch for variable 'yPos_reg' [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/vga_controller.vhd:679]
-WARNING: [Synth 8-327] inferring latch for variable 'xPos_reg' [C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/vga_controller.vhd:669]
+WARNING: [Synth 8-327] inferring latch for variable 'yPos_reg' [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/vga_controller.vhd:679]
+WARNING: [Synth 8-327] inferring latch for variable 'xPos_reg' [D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/vga_controller.vhd:669]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1163.246 ; gain = 130.523
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1167.562 ; gain = 130.871
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -274,7 +274,7 @@ DSP Report: Generating DSP vga_red3, operation Mode is: (PCIN>>17)+A*B.
 DSP Report: operator vga_red3 is absorbed into DSP vga_red3.
 DSP Report: operator vga_red3 is absorbed into DSP vga_red3.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1163.246 ; gain = 130.523
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1167.562 ; gain = 130.871
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -311,19 +311,19 @@ Finished ROM, RAM, DSP and Shift Register Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1176.336 ; gain = 143.613
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1183.516 ; gain = 146.824
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 1238.258 ; gain = 205.535
+Finished Timing Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:42 . Memory (MB): peak = 1239.074 ; gain = 202.383
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1258.953 ; gain = 226.230
+Finished Technology Mapping : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 1266.199 ; gain = 229.508
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -341,37 +341,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:48 ; elapsed = 00:00:48 . Memory (MB): peak = 1264.293 ; gain = 231.570
+Finished IO Insertion : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 1271.934 ; gain = 235.242
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:48 ; elapsed = 00:00:48 . Memory (MB): peak = 1264.293 ; gain = 231.570
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 1271.934 ; gain = 235.242
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1264.293 ; gain = 231.570
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 1271.934 ; gain = 235.242
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1264.293 ; gain = 231.570
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 1271.934 ; gain = 235.242
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1264.293 ; gain = 231.570
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:47 ; elapsed = 00:00:47 . Memory (MB): peak = 1271.934 ; gain = 235.242
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1264.293 ; gain = 231.570
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:47 ; elapsed = 00:00:47 . Memory (MB): peak = 1271.934 ; gain = 235.242
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -390,38 +390,37 @@ Report Cell Usage:
 |1     |BUFG       |     2|
 |2     |CARRY4     |   143|
 |3     |DSP48E1    |     6|
-|4     |LUT1       |   127|
+|4     |LUT1       |   126|
 |5     |LUT2       |   382|
-|6     |LUT3       |    94|
-|7     |LUT4       |   182|
-|8     |LUT5       |   132|
-|9     |LUT6       |   751|
+|6     |LUT3       |    90|
+|7     |LUT4       |   189|
+|8     |LUT5       |   133|
+|9     |LUT6       |   761|
 |10    |MMCME2_ADV |     1|
-|11    |MUXF7      |    59|
-|12    |MUXF8      |    16|
+|11    |MUXF7      |    57|
+|12    |MUXF8      |    18|
 |13    |FDCE       |    98|
 |14    |FDPE       |     1|
-|15    |FDRE       |    79|
-|16    |FDSE       |    12|
-|17    |LD         |    20|
-|18    |IBUF       |    21|
-|19    |IOBUF      |     2|
-|20    |OBUF       |    18|
+|15    |FDRE       |    91|
+|16    |LD         |    20|
+|17    |IBUF       |    21|
+|18    |IOBUF      |     2|
+|19    |OBUF       |    18|
 +------+-----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1264.293 ; gain = 231.570
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:47 ; elapsed = 00:00:47 . Memory (MB): peak = 1271.934 ; gain = 235.242
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:41 ; elapsed = 00:00:47 . Memory (MB): peak = 1264.293 ; gain = 113.250
-Synthesis Optimization Complete : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1264.293 ; gain = 231.570
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:40 ; elapsed = 00:00:45 . Memory (MB): peak = 1271.934 ; gain = 111.984
+Synthesis Optimization Complete : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 1271.934 ; gain = 235.242
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1264.293 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1271.934 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 247 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 WARNING: [Netlist 29-101] Netlist 'vga_controller' is not ideal for floorplanning, since the cellview 'vga_controller' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1264.293 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1271.934 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 22 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 2 instances
@@ -430,7 +429,7 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 59 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 1264.293 ; gain = 231.570
+synth_design: Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 1271.934 ; gain = 235.242
 INFO: [Common 17-1381] The checkpoint 'D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.runs/synth_1/vga_controller.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file vga_controller_utilization_synth.rpt -pb vga_controller_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Jan 16 02:42:10 2023...
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 16 20:48:05 2023...

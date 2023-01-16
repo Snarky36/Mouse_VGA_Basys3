@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-| Date             : Mon Jan 16 02:43:43 2023
+| Date             : Mon Jan 16 20:49:32 2023
 | Host             : DESKTOP-OMSK9GI running 64-bit major release  (build 9200)
 | Command          : report_power -file vga_controller_power_routed.rpt -pb vga_controller_power_summary_routed.pb -rpx vga_controller_power_routed.rpx
 | Design           : vga_controller
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.222        |
+| Total On-Chip Power (W)  | 0.221        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.150        |
+| Dynamic (W)              | 0.149        |
 | Device Static (W)        | 0.072        |
 | Effective TJA (C/W)      | 5.0          |
 | Max Ambient (C)          | 83.9         |
@@ -53,18 +53,18 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |     0.002 |        5 |       --- |             --- |
-| Slice Logic    |     0.007 |     2165 |       --- |             --- |
-|   LUT as Logic |     0.006 |     1542 |     20800 |            7.41 |
+| Slice Logic    |     0.007 |     2163 |       --- |             --- |
+|   LUT as Logic |     0.006 |     1543 |     20800 |            7.42 |
 |   CARRY4       |    <0.001 |      143 |      8150 |            1.75 |
 |   F7/F8 Muxes  |    <0.001 |       75 |     32600 |            0.23 |
-|   Register     |    <0.001 |      212 |     41600 |            0.51 |
+|   Register     |    <0.001 |      211 |     41600 |            0.51 |
 |   Others       |     0.000 |       41 |       --- |             --- |
-| Signals        |     0.009 |     1849 |       --- |             --- |
+| Signals        |     0.009 |     1846 |       --- |             --- |
 | MMCM           |     0.123 |        1 |         5 |           20.00 |
 | DSPs           |     0.006 |        6 |        90 |            6.67 |
 | I/O            |     0.003 |       41 |       106 |           38.68 |
 | Static Power   |     0.072 |          |           |                 |
-| Total          |     0.222 |          |           |                 |
+| Total          |     0.221 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -145,7 +145,7 @@ Table of Contents
 +----------------+-----------+
 | Name           | Power (W) |
 +----------------+-----------+
-| vga_controller |     0.150 |
+| vga_controller |     0.149 |
 |   clk_modifier |     0.124 |
 |   mouse_unit   |     0.002 |
 +----------------+-----------+

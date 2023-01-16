@@ -71,8 +71,6 @@ proc create_report { reportName command } {
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param chipscope.maxJobs 4
-set_param xicom.use_bs_reader 1
-set_msg_config -id {Common 17-41} -limit 10000000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
@@ -89,14 +87,14 @@ OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib {
   C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/bist_d.vhd
-  C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/clk_divider.vhd
-  C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/clk_mul.vhd
-  C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/debouncer.vhd
-  D:/Facultate/XilinxVivadoProjects/SSC/ps2_tx.vhd
-  D:/Facultate/XilinxVivadoProjects/SSC/ps2_rx.vhd
-  D:/Facultate/XilinxVivadoProjects/SSC/ps2_rxtx.vhd
-  D:/Facultate/XilinxVivadoProjects/SSC/mouse.vhd
-  C:/Users/Andrei/Desktop/An_3_Semestrul_1/SSC/ProiectSSC/vga_controller-35d0a5bf9586a526b944a4f7948d589047666a03/vga_controller.srcs/sources_1/new/vga_controller.vhd
+  D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/clk_divider.vhd
+  D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/clk_mul.vhd
+  D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/debouncer.vhd
+  D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/ps2_tx.vhd
+  D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/ps2_rx.vhd
+  D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/ps2_rxtx.vhd
+  D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/mouse.vhd
+  D:/Facultate/XilinxVivadoProjects/SSC/ProiectSSC/Mouse_and_VGA/Mouse_and_VGA.srcs/sources_1/new/vga_controller.vhd
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
